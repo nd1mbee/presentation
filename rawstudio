@@ -1,0 +1,103 @@
+
+RAWSTUDIO
+=========
+
+Ce qui ne sera pas dit ici
+--------------------------
+
+* manipuler un reflexe numérique
+* faire un montage photo
+* créer un site portofolio
+
+Raw
+---
+
+* format brut [eng], comparable à la pellicule en argentique
+* meilleure qualité (15Mo)
+* réduction du bruit numérique
+* amélioration du rendu visuel (balance des blancs - exposition de la photo ...)
+* format d'images non-destructive même après amélioration du rendu
+
+JPEG
+----
+
+* Format d'image compressé avec perte
+* taille d'image plus petite (2-5Mo)
+* utilisé pour l'impression, le web etc ...
+* format le plus utilisé
+
+
+Chaine de traitement
+--------------------
+
+- Prendre la photo
+- copier vers l'ordinateur
+- **on fait le tri**
+- **on retouche, on corrige**
+- **on upload**
+- ou on imprime
+
+Installation Rawstudio 2.0
+--------------------------
+
+- *sudo apt-add-repository ppa:rawstudio/ppa*
+- *sudo aptitude update*
+- *sudo aptitude install rawstudio*
+
+Premier pas dans rawstudio
+--------------------------
+
+- Vue miniatures des photos du répertoire (crtl+I)
+- Listes des outils (crtl+T)
+- La photo
+
+Outils: Amélioration basique
+----------------------------
+
+- exposition: quantité de lumière qui pénétre la lumière
+- saturation: exprime la pureté de la couleur -> N&B
+- contraste: diffèrence de luminance entre les valeurs les plus clairs et les plus sombres de la photo
+- température et teinte: réglage de la balance des blancs en fonction de la lumière (kelvin)
+- netteté: rattrapé l'image un peu flou
+- Antibruit
+
+Correction des ditorsions de l'objectif
+---------------------------------------
+
+- L'abberation chromatique: effet de halo autour des zones de hautes lumières
+- Vignetage: assombrissement des coins d'une photo
+
+Transformation
+--------------
+
+- Redresser par rapport à l'horizontal
+- Cadrer suivant différentes règles et ratio
+- Pivoter
+
+Travailler sur une large séléction
+----------------------------------
+
+- Trie rapide grâce à 3 modes de priorités
+- Copier les paramètres entre les images
+- 3 modes de comparaison du rendu visuel
+
+Output
+------
+- nom de fichier/dossier parmètrable
+- flickr
+- facebook
+- picasa
+- jpeg/png
+
+Les autres
+----------
+
+- shotwell
+- ufraw 
+- darktable
+- rawtherapee
+
+Conclusion
+----------
+
+Meilleure alternative de traitement photos, léger, simple.
